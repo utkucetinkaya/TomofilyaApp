@@ -7,8 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB41F75CBF2050AE23C3B72 /* Pods_TomofilyaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E4014F8A626F3B69279F60 /* Pods_TomofilyaApp.framework */; };
+		B817F8102AA9C451009C24A0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817F80F2AA9C451009C24A0 /* NetworkService.swift */; };
+		B817F8122AA9C495009C24A0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817F8112AA9C495009C24A0 /* Router.swift */; };
+		B817F8142AA9C6AB009C24A0 /* SocialPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817F8132AA9C6AB009C24A0 /* SocialPlatform.swift */; };
+		B817F8162AA9E3C7009C24A0 /* LogicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817F8152AA9E3C7009C24A0 /* LogicViewModel.swift */; };
+		B817F8182AA9F1E7009C24A0 /* SendVerifyResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817F8172AA9F1E7009C24A0 /* SendVerifyResponseModel.swift */; };
+		B817F81A2AAA02A7009C24A0 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817F8192AAA02A7009C24A0 /* LoginResponseModel.swift */; };
+		B817F81C2AAA0352009C24A0 /* PasswordResetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817F81B2AAA0352009C24A0 /* PasswordResetResponse.swift */; };
+		B817F81E2AAA03FA009C24A0 /* SocialResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817F81D2AAA03FA009C24A0 /* SocialResponseModel.swift */; };
+		B817F8212AAA098F009C24A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817F8202AAA098F009C24A0 /* HomeViewController.swift */; };
+		B817F8252AAA24C5009C24A0 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817F8232AAA24C5009C24A0 /* ForgotPasswordViewController.swift */; };
+		B817F8262AAA24C5009C24A0 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B817F8242AAA24C5009C24A0 /* ForgotPasswordViewController.xib */; };
+		B8204C202A95FC810066445D /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8204C1F2A95FC810066445D /* UIView+Ext.swift */; };
+		B8204C222A960C410066445D /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8204C212A960C410066445D /* PasswordTextField.swift */; };
+		B829359E2A9754DC00CF4C74 /* LoginSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B829359D2A9754DC00CF4C74 /* LoginSegmentControl.swift */; };
+		B82935A72A97FD2900CF4C74 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82935A62A97FD2900CF4C74 /* HttpMethod.swift */; };
+		B8424D892A9969FE00EECB2F /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8424D882A9969FE00EECB2F /* RegisterResponse.swift */; };
+		B85201C72A844FDE009DE2E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85201C52A844FDE009DE2E2 /* LoginViewController.swift */; };
+		B85201C82A844FDE009DE2E2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B85201C62A844FDE009DE2E2 /* LoginViewController.xib */; };
+		B85319302AAB09FF003C8290 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B853192E2AAB09FF003C8290 /* PasswordResetViewController.swift */; };
+		B85319312AAB09FF003C8290 /* PasswordResetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B853192F2AAB09FF003C8290 /* PasswordResetViewController.xib */; };
+		B85DB57F2A94A72F00D6260A /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85DB57E2A94A72F00D6260A /* UIColor+Ext.swift */; };
+		B87FA7DD2AA39CAE0089FA55 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FA7DB2AA39CAE0089FA55 /* VerifyViewController.swift */; };
+		B87FA7DE2AA39CAE0089FA55 /* VerifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87FA7DC2AA39CAE0089FA55 /* VerifyViewController.xib */; };
+		B87FA7E32AA39E000089FA55 /* VerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FA7E22AA39E000089FA55 /* VerifyModel.swift */; };
 		B88A90062A7FCBAB003F10F3 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88A90042A7FCBAB003F10F3 /* SplashViewController.swift */; };
 		B88A90072A7FCBAB003F10F3 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B88A90052A7FCBAB003F10F3 /* SplashViewController.xib */; };
+		B88A90222A7FE05F003F10F3 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A900F2A7FE05F003F10F3 /* Poppins-ExtraLight.ttf */; };
+		B88A90232A7FE05F003F10F3 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90102A7FE05F003F10F3 /* Poppins-ThinItalic.ttf */; };
+		B88A90242A7FE05F003F10F3 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90112A7FE05F003F10F3 /* Poppins-ExtraLightItalic.ttf */; };
+		B88A90252A7FE05F003F10F3 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90122A7FE05F003F10F3 /* Poppins-BoldItalic.ttf */; };
+		B88A90262A7FE05F003F10F3 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90132A7FE05F003F10F3 /* Poppins-Light.ttf */; };
+		B88A90272A7FE05F003F10F3 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90142A7FE05F003F10F3 /* Poppins-Medium.ttf */; };
+		B88A90282A7FE05F003F10F3 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90152A7FE05F003F10F3 /* Poppins-SemiBoldItalic.ttf */; };
+		B88A90292A7FE05F003F10F3 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90162A7FE05F003F10F3 /* Poppins-ExtraBoldItalic.ttf */; };
+		B88A902A2A7FE05F003F10F3 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90172A7FE05F003F10F3 /* Poppins-ExtraBold.ttf */; };
+		B88A902B2A7FE05F003F10F3 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90182A7FE05F003F10F3 /* Poppins-BlackItalic.ttf */; };
+		B88A902C2A7FE05F003F10F3 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = B88A90192A7FE05F003F10F3 /* OFL.txt */; };
+		B88A902D2A7FE05F003F10F3 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A901A2A7FE05F003F10F3 /* Poppins-Regular.ttf */; };
+		B88A902E2A7FE05F003F10F3 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A901B2A7FE05F003F10F3 /* Poppins-LightItalic.ttf */; };
+		B88A902F2A7FE05F003F10F3 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A901C2A7FE05F003F10F3 /* Poppins-Bold.ttf */; };
+		B88A90302A7FE05F003F10F3 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A901D2A7FE05F003F10F3 /* Poppins-Black.ttf */; };
+		B88A90312A7FE05F003F10F3 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A901E2A7FE05F003F10F3 /* Poppins-Thin.ttf */; };
+		B88A90322A7FE05F003F10F3 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A901F2A7FE05F003F10F3 /* Poppins-SemiBold.ttf */; };
+		B88A90332A7FE05F003F10F3 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90202A7FE05F003F10F3 /* Poppins-Italic.ttf */; };
+		B88A90342A7FE05F003F10F3 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A90212A7FE05F003F10F3 /* Poppins-MediumItalic.ttf */; };
+		B88A90372A7FE2DE003F10F3 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88A90362A7FE2DE003F10F3 /* UIFont+Ext.swift */; };
+		B88A903B2A7FF22C003F10F3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88A90392A7FF22C003F10F3 /* OnboardingViewController.swift */; };
+		B88A903C2A7FF22C003F10F3 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B88A903A2A7FF22C003F10F3 /* OnboardingViewController.xib */; };
+		B8A761232A80F9A900766236 /* OnboardingSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A761222A80F9A900766236 /* OnboardingSlides.swift */; };
+		B8A761282A810A9800766236 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A761262A810A9800766236 /* OnboardingCollectionViewCell.swift */; };
+		B8A761292A810A9800766236 /* OnboardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A761272A810A9800766236 /* OnboardingCollectionViewCell.xib */; };
+		B8A7612B2A810D8600766236 /* NSObject+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A7612A2A810D8600766236 /* NSObject+Ext.swift */; };
 		B8E5C7122A7F04CA00B6915F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E5C7112A7F04CA00B6915F /* AppDelegate.swift */; };
 		B8E5C7142A7F04CA00B6915F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E5C7132A7F04CA00B6915F /* SceneDelegate.swift */; };
 		B8E5C71B2A7F04CC00B6915F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E5C71A2A7F04CC00B6915F /* Assets.xcassets */; };
@@ -16,14 +67,67 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23E4014F8A626F3B69279F60 /* Pods_TomofilyaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TomofilyaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5795D35665F0848D1C93194E /* Pods-TomofilyaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomofilyaApp.release.xcconfig"; path = "Target Support Files/Pods-TomofilyaApp/Pods-TomofilyaApp.release.xcconfig"; sourceTree = "<group>"; };
+		B817F80F2AA9C451009C24A0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B817F8112AA9C495009C24A0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B817F8132AA9C6AB009C24A0 /* SocialPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPlatform.swift; sourceTree = "<group>"; };
+		B817F8152AA9E3C7009C24A0 /* LogicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicViewModel.swift; sourceTree = "<group>"; };
+		B817F8172AA9F1E7009C24A0 /* SendVerifyResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendVerifyResponseModel.swift; sourceTree = "<group>"; };
+		B817F8192AAA02A7009C24A0 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		B817F81B2AAA0352009C24A0 /* PasswordResetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetResponse.swift; sourceTree = "<group>"; };
+		B817F81D2AAA03FA009C24A0 /* SocialResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialResponseModel.swift; sourceTree = "<group>"; };
+		B817F8202AAA098F009C24A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B817F8232AAA24C5009C24A0 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		B817F8242AAA24C5009C24A0 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		B8204C1F2A95FC810066445D /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		B8204C212A960C410066445D /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		B829359D2A9754DC00CF4C74 /* LoginSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSegmentControl.swift; sourceTree = "<group>"; };
+		B82935A62A97FD2900CF4C74 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		B8424D882A9969FE00EECB2F /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		B85201C52A844FDE009DE2E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B85201C62A844FDE009DE2E2 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B853192E2AAB09FF003C8290 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		B853192F2AAB09FF003C8290 /* PasswordResetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordResetViewController.xib; sourceTree = "<group>"; };
+		B85DB57E2A94A72F00D6260A /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		B87FA7DB2AA39CAE0089FA55 /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		B87FA7DC2AA39CAE0089FA55 /* VerifyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerifyViewController.xib; sourceTree = "<group>"; };
+		B87FA7E22AA39E000089FA55 /* VerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyModel.swift; sourceTree = "<group>"; };
 		B88A90042A7FCBAB003F10F3 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		B88A90052A7FCBAB003F10F3 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		B88A900F2A7FE05F003F10F3 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B88A90102A7FE05F003F10F3 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B88A90112A7FE05F003F10F3 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B88A90122A7FE05F003F10F3 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B88A90132A7FE05F003F10F3 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		B88A90142A7FE05F003F10F3 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		B88A90152A7FE05F003F10F3 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B88A90162A7FE05F003F10F3 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B88A90172A7FE05F003F10F3 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B88A90182A7FE05F003F10F3 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B88A90192A7FE05F003F10F3 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		B88A901A2A7FE05F003F10F3 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		B88A901B2A7FE05F003F10F3 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		B88A901C2A7FE05F003F10F3 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		B88A901D2A7FE05F003F10F3 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		B88A901E2A7FE05F003F10F3 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		B88A901F2A7FE05F003F10F3 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		B88A90202A7FE05F003F10F3 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		B88A90212A7FE05F003F10F3 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B88A90362A7FE2DE003F10F3 /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
+		B88A90392A7FF22C003F10F3 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B88A903A2A7FF22C003F10F3 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		B8A761222A80F9A900766236 /* OnboardingSlides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlides.swift; sourceTree = "<group>"; };
+		B8A761262A810A9800766236 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8A761272A810A9800766236 /* OnboardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCollectionViewCell.xib; sourceTree = "<group>"; };
+		B8A7612A2A810D8600766236 /* NSObject+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Ext.swift"; sourceTree = "<group>"; };
 		B8E5C70E2A7F04CA00B6915F /* TomofilyaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomofilyaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E5C7112A7F04CA00B6915F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8E5C7132A7F04CA00B6915F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B8E5C71A2A7F04CC00B6915F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8E5C71D2A7F04CC00B6915F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8E5C71F2A7F04CC00B6915F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B942CF0C63C5F7AFD902D73D /* Pods-TomofilyaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomofilyaApp.debug.xcconfig"; path = "Target Support Files/Pods-TomofilyaApp/Pods-TomofilyaApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +135,146 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB41F75CBF2050AE23C3B72 /* Pods_TomofilyaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46F769CE140D756D303A4B56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B942CF0C63C5F7AFD902D73D /* Pods-TomofilyaApp.debug.xcconfig */,
+				5795D35665F0848D1C93194E /* Pods-TomofilyaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD7B07FF34EA00E5A66E433E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23E4014F8A626F3B69279F60 /* Pods_TomofilyaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B817F81F2AAA0979009C24A0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B817F8202AAA098F009C24A0 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B817F8222AAA24AA009C24A0 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				B817F8232AAA24C5009C24A0 /* ForgotPasswordViewController.swift */,
+				B817F8242AAA24C5009C24A0 /* ForgotPasswordViewController.xib */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		B829359F2A975E3E00CF4C74 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				B8204C212A960C410066445D /* PasswordTextField.swift */,
+				B829359D2A9754DC00CF4C74 /* LoginSegmentControl.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		B82935A02A975E5000CF4C74 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B853192D2AAB09D1003C8290 /* PasswordReset */,
+				B817F8222AAA24AA009C24A0 /* ForgotPassword */,
+				B87FA7DA2AA39C900089FA55 /* VerifyOTP */,
+				B87FA7D92AA39C7C0089FA55 /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B82935A12A97FCC000CF4C74 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B82935A62A97FD2900CF4C74 /* HttpMethod.swift */,
+				B817F80F2AA9C451009C24A0 /* NetworkService.swift */,
+				B817F8112AA9C495009C24A0 /* Router.swift */,
+				B817F8132AA9C6AB009C24A0 /* SocialPlatform.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B82935AB2A988C0B00CF4C74 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B817F8152AA9E3C7009C24A0 /* LogicViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B82935AC2A988C1100CF4C74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8424D882A9969FE00EECB2F /* RegisterResponse.swift */,
+				B87FA7E22AA39E000089FA55 /* VerifyModel.swift */,
+				B817F8172AA9F1E7009C24A0 /* SendVerifyResponseModel.swift */,
+				B817F8192AAA02A7009C24A0 /* LoginResponseModel.swift */,
+				B817F81B2AAA0352009C24A0 /* PasswordResetResponse.swift */,
+				B817F81D2AAA03FA009C24A0 /* SocialResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B85201C42A844FBF009DE2E2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B82935AC2A988C1100CF4C74 /* Model */,
+				B82935AB2A988C0B00CF4C74 /* ViewModel */,
+				B82935A02A975E5000CF4C74 /* Controller */,
+				B829359F2A975E3E00CF4C74 /* Component */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B853192D2AAB09D1003C8290 /* PasswordReset */ = {
+			isa = PBXGroup;
+			children = (
+				B853192E2AAB09FF003C8290 /* PasswordResetViewController.swift */,
+				B853192F2AAB09FF003C8290 /* PasswordResetViewController.xib */,
+			);
+			path = PasswordReset;
+			sourceTree = "<group>";
+		};
+		B87FA7D92AA39C7C0089FA55 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B85201C52A844FDE009DE2E2 /* LoginViewController.swift */,
+				B85201C62A844FDE009DE2E2 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B87FA7DA2AA39C900089FA55 /* VerifyOTP */ = {
+			isa = PBXGroup;
+			children = (
+				B87FA7DB2AA39CAE0089FA55 /* VerifyViewController.swift */,
+				B87FA7DC2AA39CAE0089FA55 /* VerifyViewController.xib */,
+			);
+			path = VerifyOTP;
+			sourceTree = "<group>";
+		};
+		B87FA7DF2AA39CEB0089FA55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B88A90392A7FF22C003F10F3 /* OnboardingViewController.swift */,
+				B88A903A2A7FF22C003F10F3 /* OnboardingViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B88A90082A7FCD64003F10F3 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +287,9 @@
 		B88A90092A7FCD9C003F10F3 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				B817F81F2AAA0979009C24A0 /* Home */,
+				B85201C42A844FBF009DE2E2 /* Login */,
+				B88A90382A7FF219003F10F3 /* Onboarding */,
 				B88A900C2A7FCDCE003F10F3 /* Splash */,
 			);
 			path = Scenes;
@@ -80,11 +321,85 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		B88A900D2A7FE050003F10F3 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				B88A900E2A7FE05F003F10F3 /* Poppins */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		B88A900E2A7FE05F003F10F3 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				B88A900F2A7FE05F003F10F3 /* Poppins-ExtraLight.ttf */,
+				B88A90102A7FE05F003F10F3 /* Poppins-ThinItalic.ttf */,
+				B88A90112A7FE05F003F10F3 /* Poppins-ExtraLightItalic.ttf */,
+				B88A90122A7FE05F003F10F3 /* Poppins-BoldItalic.ttf */,
+				B88A90132A7FE05F003F10F3 /* Poppins-Light.ttf */,
+				B88A90142A7FE05F003F10F3 /* Poppins-Medium.ttf */,
+				B88A90152A7FE05F003F10F3 /* Poppins-SemiBoldItalic.ttf */,
+				B88A90162A7FE05F003F10F3 /* Poppins-ExtraBoldItalic.ttf */,
+				B88A90172A7FE05F003F10F3 /* Poppins-ExtraBold.ttf */,
+				B88A90182A7FE05F003F10F3 /* Poppins-BlackItalic.ttf */,
+				B88A90192A7FE05F003F10F3 /* OFL.txt */,
+				B88A901A2A7FE05F003F10F3 /* Poppins-Regular.ttf */,
+				B88A901B2A7FE05F003F10F3 /* Poppins-LightItalic.ttf */,
+				B88A901C2A7FE05F003F10F3 /* Poppins-Bold.ttf */,
+				B88A901D2A7FE05F003F10F3 /* Poppins-Black.ttf */,
+				B88A901E2A7FE05F003F10F3 /* Poppins-Thin.ttf */,
+				B88A901F2A7FE05F003F10F3 /* Poppins-SemiBold.ttf */,
+				B88A90202A7FE05F003F10F3 /* Poppins-Italic.ttf */,
+				B88A90212A7FE05F003F10F3 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		B88A90352A7FE2CC003F10F3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B88A90362A7FE2DE003F10F3 /* UIFont+Ext.swift */,
+				B8A7612A2A810D8600766236 /* NSObject+Ext.swift */,
+				B85DB57E2A94A72F00D6260A /* UIColor+Ext.swift */,
+				B8204C1F2A95FC810066445D /* UIView+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B88A90382A7FF219003F10F3 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B87FA7DF2AA39CEB0089FA55 /* Controller */,
+				B8A761252A810A7A00766236 /* Cell */,
+				B8A761242A80F9AE00766236 /* Model */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B8A761242A80F9AE00766236 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8A761222A80F9A900766236 /* OnboardingSlides.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8A761252A810A7A00766236 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B8A761262A810A9800766236 /* OnboardingCollectionViewCell.swift */,
+				B8A761272A810A9800766236 /* OnboardingCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		B8E5C7052A7F04CA00B6915F = {
 			isa = PBXGroup;
 			children = (
 				B8E5C7102A7F04CA00B6915F /* TomofilyaApp */,
 				B8E5C70F2A7F04CA00B6915F /* Products */,
+				46F769CE140D756D303A4B56 /* Pods */,
+				AD7B07FF34EA00E5A66E433E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +414,9 @@
 		B8E5C7102A7F04CA00B6915F /* TomofilyaApp */ = {
 			isa = PBXGroup;
 			children = (
+				B82935A12A97FCC000CF4C74 /* Service */,
+				B88A90352A7FE2CC003F10F3 /* Extension */,
+				B88A900D2A7FE050003F10F3 /* CustomFonts */,
 				B88A90082A7FCD64003F10F3 /* App */,
 				B88A90092A7FCD9C003F10F3 /* Scenes */,
 				B88A900A2A7FCDA7003F10F3 /* Resources */,
@@ -114,9 +432,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8E5C7222A7F04CC00B6915F /* Build configuration list for PBXNativeTarget "TomofilyaApp" */;
 			buildPhases = (
+				FB2E12C6D8F111B3B930B4C5 /* [CP] Check Pods Manifest.lock */,
 				B8E5C70A2A7F04CA00B6915F /* Sources */,
 				B8E5C70B2A7F04CA00B6915F /* Frameworks */,
 				B8E5C70C2A7F04CA00B6915F /* Resources */,
+				EC7DAC6E93209E295D51CE90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,7 +485,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88A90312A7FE05F003F10F3 /* Poppins-Thin.ttf in Resources */,
+				B85319312AAB09FF003C8290 /* PasswordResetViewController.xib in Resources */,
+				B88A90342A7FE05F003F10F3 /* Poppins-MediumItalic.ttf in Resources */,
+				B88A902C2A7FE05F003F10F3 /* OFL.txt in Resources */,
+				B88A90242A7FE05F003F10F3 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				B88A902B2A7FE05F003F10F3 /* Poppins-BlackItalic.ttf in Resources */,
+				B88A903C2A7FF22C003F10F3 /* OnboardingViewController.xib in Resources */,
+				B88A90222A7FE05F003F10F3 /* Poppins-ExtraLight.ttf in Resources */,
+				B88A90322A7FE05F003F10F3 /* Poppins-SemiBold.ttf in Resources */,
+				B88A90252A7FE05F003F10F3 /* Poppins-BoldItalic.ttf in Resources */,
+				B88A90262A7FE05F003F10F3 /* Poppins-Light.ttf in Resources */,
+				B88A90302A7FE05F003F10F3 /* Poppins-Black.ttf in Resources */,
+				B88A90332A7FE05F003F10F3 /* Poppins-Italic.ttf in Resources */,
+				B817F8262AAA24C5009C24A0 /* ForgotPasswordViewController.xib in Resources */,
+				B88A902A2A7FE05F003F10F3 /* Poppins-ExtraBold.ttf in Resources */,
+				B88A902E2A7FE05F003F10F3 /* Poppins-LightItalic.ttf in Resources */,
+				B8A761292A810A9800766236 /* OnboardingCollectionViewCell.xib in Resources */,
+				B85201C82A844FDE009DE2E2 /* LoginViewController.xib in Resources */,
 				B8E5C71E2A7F04CC00B6915F /* LaunchScreen.storyboard in Resources */,
+				B87FA7DE2AA39CAE0089FA55 /* VerifyViewController.xib in Resources */,
+				B88A90282A7FE05F003F10F3 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				B88A902D2A7FE05F003F10F3 /* Poppins-Regular.ttf in Resources */,
+				B88A90292A7FE05F003F10F3 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				B88A902F2A7FE05F003F10F3 /* Poppins-Bold.ttf in Resources */,
+				B88A90232A7FE05F003F10F3 /* Poppins-ThinItalic.ttf in Resources */,
+				B88A90272A7FE05F003F10F3 /* Poppins-Medium.ttf in Resources */,
 				B88A90072A7FCBAB003F10F3 /* SplashViewController.xib in Resources */,
 				B8E5C71B2A7F04CC00B6915F /* Assets.xcassets in Resources */,
 			);
@@ -173,14 +518,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EC7DAC6E93209E295D51CE90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TomofilyaApp/Pods-TomofilyaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TomofilyaApp/Pods-TomofilyaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TomofilyaApp/Pods-TomofilyaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2E12C6D8F111B3B930B4C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TomofilyaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8E5C70A2A7F04CA00B6915F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85201C72A844FDE009DE2E2 /* LoginViewController.swift in Sources */,
+				B8204C202A95FC810066445D /* UIView+Ext.swift in Sources */,
+				B817F8102AA9C451009C24A0 /* NetworkService.swift in Sources */,
+				B8204C222A960C410066445D /* PasswordTextField.swift in Sources */,
+				B88A90372A7FE2DE003F10F3 /* UIFont+Ext.swift in Sources */,
+				B817F81C2AAA0352009C24A0 /* PasswordResetResponse.swift in Sources */,
+				B817F8142AA9C6AB009C24A0 /* SocialPlatform.swift in Sources */,
 				B8E5C7122A7F04CA00B6915F /* AppDelegate.swift in Sources */,
+				B817F8162AA9E3C7009C24A0 /* LogicViewModel.swift in Sources */,
+				B8A761232A80F9A900766236 /* OnboardingSlides.swift in Sources */,
+				B8A761282A810A9800766236 /* OnboardingCollectionViewCell.swift in Sources */,
+				B88A903B2A7FF22C003F10F3 /* OnboardingViewController.swift in Sources */,
 				B8E5C7142A7F04CA00B6915F /* SceneDelegate.swift in Sources */,
+				B85DB57F2A94A72F00D6260A /* UIColor+Ext.swift in Sources */,
+				B817F8182AA9F1E7009C24A0 /* SendVerifyResponseModel.swift in Sources */,
+				B817F81A2AAA02A7009C24A0 /* LoginResponseModel.swift in Sources */,
+				B817F8212AAA098F009C24A0 /* HomeViewController.swift in Sources */,
+				B82935A72A97FD2900CF4C74 /* HttpMethod.swift in Sources */,
+				B817F8122AA9C495009C24A0 /* Router.swift in Sources */,
+				B87FA7E32AA39E000089FA55 /* VerifyModel.swift in Sources */,
 				B88A90062A7FCBAB003F10F3 /* SplashViewController.swift in Sources */,
+				B829359E2A9754DC00CF4C74 /* LoginSegmentControl.swift in Sources */,
+				B87FA7DD2AA39CAE0089FA55 /* VerifyViewController.swift in Sources */,
+				B85319302AAB09FF003C8290 /* PasswordResetViewController.swift in Sources */,
+				B817F8252AAA24C5009C24A0 /* ForgotPasswordViewController.swift in Sources */,
+				B8A7612B2A810D8600766236 /* NSObject+Ext.swift in Sources */,
+				B8424D892A9969FE00EECB2F /* RegisterResponse.swift in Sources */,
+				B817F81E2AAA03FA009C24A0 /* SocialResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +726,7 @@
 		};
 		B8E5C7232A7F04CC00B6915F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B942CF0C63C5F7AFD902D73D /* Pods-TomofilyaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -342,6 +755,7 @@
 		};
 		B8E5C7242A7F04CC00B6915F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5795D35665F0848D1C93194E /* Pods-TomofilyaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

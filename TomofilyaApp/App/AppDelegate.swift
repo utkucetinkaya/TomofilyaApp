@@ -4,15 +4,42 @@
 //
 //  Created by Utku Çetinkaya on 6.08.2023.
 //
+//  251397272386-r4llo20vvi11uag83o347q73gf5or11n.apps.googleusercontent.com
 
 import UIKit
+import GoogleSignIn
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
+            if error != nil || user == nil {
+              // Show the app's signed-out state.
+            } else {
+              // Show the app's signed-in state.
+            }
+          }
+
         return true
+    }
+
+    func application(
+      _ app: UIApplication,
+      open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]
+    ) -> Bool {
+      var handled: Bool
+
+      handled = GIDSignIn.sharedInstance.handle(url)
+      if handled {
+        return true
+      }
+
+      // Handle other custom URL types.
+
+      // If not handled by this app, return false.
+      return false
     }
 
     // MARK: UISceneSession Lifecycle
@@ -28,7 +55,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
 }
-

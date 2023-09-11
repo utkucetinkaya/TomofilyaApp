@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnboardingViewController" customModule="TomofilyaApp" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="PFv-fo-j1z" id="jNK-3j-9zM"/>
+                <outlet property="logInSignUpButton" destination="qF1-sA-JL1" id="Mur-aw-6JI"/>
+                <outlet property="pageControl" destination="zeM-dz-1dP" id="QXE-Ov-kY2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Vfk-yq-VOr">
+                    <rect key="frame" x="127" y="65" width="160" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="IGV-Nd-yoC"/>
+                        <constraint firstAttribute="width" constant="160" id="lbq-8W-GiA"/>
+                    </constraints>
+                </imageView>
+                <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="PFv-fo-j1z">
+                    <rect key="frame" x="0.0" y="172" width="414" height="396"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="396" id="zbU-oH-cpw"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Wzh-jB-kWm">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="zeM-dz-1dP">
+                    <rect key="frame" x="149" y="608" width="116" height="26"/>
+                </pageControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qF1-sA-JL1">
+                    <rect key="frame" x="55" y="703" width="304" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="X4L-d4-Vns"/>
+                        <constraint firstAttribute="width" constant="304" id="YaY-Km-xVl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                    <color key="tintColor" systemColor="systemBackgroundColor"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Kayıt Ol / Giriş Yap">
+                        <color key="titleColor" red="0.058823529409999999" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="loginButtonClicked:" destination="-1" eventType="touchUpInside" id="oMx-cx-Xhr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIk-qX-E7h">
+                    <rect key="frame" x="142" y="759" width="130.5" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Kullanmaya Başla" titleAlignment="center">
+                        <fontDescription key="titleFontDescription" name="Poppins-Light" family="Poppins" pointSize="12"/>
+                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.058823529411764705" green="0.058823529411764705" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qF1-sA-JL1" firstAttribute="top" secondItem="zeM-dz-1dP" secondAttribute="bottom" constant="69" id="7CB-wE-k11"/>
+                <constraint firstItem="AIk-qX-E7h" firstAttribute="top" secondItem="qF1-sA-JL1" secondAttribute="bottom" constant="16" id="Bhx-Du-9e0"/>
+                <constraint firstItem="Vfk-yq-VOr" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="17" id="F2z-HQ-UBp"/>
+                <constraint firstItem="AIk-qX-E7h" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QVq-rn-SPs"/>
+                <constraint firstItem="Vfk-yq-VOr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Wvl-5J-bfv"/>
+                <constraint firstItem="PFv-fo-j1z" firstAttribute="top" secondItem="Vfk-yq-VOr" secondAttribute="bottom" constant="67" id="X49-8g-rXS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PFv-fo-j1z" secondAttribute="trailing" id="a8z-09-MbK"/>
+                <constraint firstItem="zeM-dz-1dP" firstAttribute="top" secondItem="PFv-fo-j1z" secondAttribute="bottom" constant="40" id="fRd-WS-60K"/>
+                <constraint firstItem="qF1-sA-JL1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="icS-U8-2X3"/>
+                <constraint firstItem="zeM-dz-1dP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qzl-Kw-vhg"/>
+                <constraint firstItem="PFv-fo-j1z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="wB6-1W-TeV"/>
+            </constraints>
+            <point key="canvasLocation" x="56.92307692307692" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="240" height="60.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
