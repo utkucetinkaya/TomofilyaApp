@@ -177,7 +177,7 @@ class LoginViewController: UIViewController {
             case .success(let response):
                 DispatchQueue.main.async {
                     print("Login success: \(response)")
-                    let vc = HomeViewController()
+                    let vc = TabBarController()
                     self.navigationController?.pushViewController(vc, animated: true)
                 }
             case .failure(let error):

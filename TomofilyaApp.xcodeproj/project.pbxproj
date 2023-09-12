@@ -23,12 +23,18 @@
 		B8204C222A960C410066445D /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8204C212A960C410066445D /* PasswordTextField.swift */; };
 		B829359E2A9754DC00CF4C74 /* LoginSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B829359D2A9754DC00CF4C74 /* LoginSegmentControl.swift */; };
 		B82935A72A97FD2900CF4C74 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82935A62A97FD2900CF4C74 /* HttpMethod.swift */; };
+		B82D8FA92AAFAC79002D72EB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D8FA82AAFAC78002D72EB /* TabBarController.swift */; };
+		B82D8FB82AAFAF23002D72EB /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D8FB72AAFAF23002D72EB /* MessageViewController.swift */; };
+		B82D8FBA2AAFAF3B002D72EB /* MyGarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D8FB92AAFAF3B002D72EB /* MyGarageViewController.swift */; };
+		B82D8FBC2AAFAF4A002D72EB /* ShoppingBagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D8FBB2AAFAF4A002D72EB /* ShoppingBagViewController.swift */; };
+		B82D8FBE2AAFAF64002D72EB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D8FBD2AAFAF64002D72EB /* ProfileViewController.swift */; };
 		B8424D892A9969FE00EECB2F /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8424D882A9969FE00EECB2F /* RegisterResponse.swift */; };
 		B85201C72A844FDE009DE2E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85201C52A844FDE009DE2E2 /* LoginViewController.swift */; };
 		B85201C82A844FDE009DE2E2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B85201C62A844FDE009DE2E2 /* LoginViewController.xib */; };
 		B85319302AAB09FF003C8290 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B853192E2AAB09FF003C8290 /* PasswordResetViewController.swift */; };
 		B85319312AAB09FF003C8290 /* PasswordResetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B853192F2AAB09FF003C8290 /* PasswordResetViewController.xib */; };
 		B85DB57F2A94A72F00D6260A /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85DB57E2A94A72F00D6260A /* UIColor+Ext.swift */; };
+		B87C09F32AB06219009B3EA9 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87C09F22AB06219009B3EA9 /* TabBarItem.swift */; };
 		B87FA7DD2AA39CAE0089FA55 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FA7DB2AA39CAE0089FA55 /* VerifyViewController.swift */; };
 		B87FA7DE2AA39CAE0089FA55 /* VerifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87FA7DC2AA39CAE0089FA55 /* VerifyViewController.xib */; };
 		B87FA7E32AA39E000089FA55 /* VerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FA7E22AA39E000089FA55 /* VerifyModel.swift */; };
@@ -84,12 +90,18 @@
 		B8204C212A960C410066445D /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 		B829359D2A9754DC00CF4C74 /* LoginSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSegmentControl.swift; sourceTree = "<group>"; };
 		B82935A62A97FD2900CF4C74 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		B82D8FA82AAFAC78002D72EB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B82D8FB72AAFAF23002D72EB /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		B82D8FB92AAFAF3B002D72EB /* MyGarageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGarageViewController.swift; sourceTree = "<group>"; };
+		B82D8FBB2AAFAF4A002D72EB /* ShoppingBagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingBagViewController.swift; sourceTree = "<group>"; };
+		B82D8FBD2AAFAF64002D72EB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B8424D882A9969FE00EECB2F /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
 		B85201C52A844FDE009DE2E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B85201C62A844FDE009DE2E2 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		B853192E2AAB09FF003C8290 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
 		B853192F2AAB09FF003C8290 /* PasswordResetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordResetViewController.xib; sourceTree = "<group>"; };
 		B85DB57E2A94A72F00D6260A /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		B87C09F22AB06219009B3EA9 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		B87FA7DB2AA39CAE0089FA55 /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
 		B87FA7DC2AA39CAE0089FA55 /* VerifyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerifyViewController.xib; sourceTree = "<group>"; };
 		B87FA7E22AA39E000089FA55 /* VerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyModel.swift; sourceTree = "<group>"; };
@@ -162,7 +174,12 @@
 		B817F81F2AAA0979009C24A0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				B817F8202AAA098F009C24A0 /* HomeViewController.swift */,
+				B82D8FAE2AAFAE8D002D72EB /* Profile */,
+				B82D8FAD2AAFAE78002D72EB /* ShoppingBag */,
+				B82D8FAC2AAFADD4002D72EB /* MyGarage */,
+				B82D8FAB2AAFAD9A002D72EB /* Message */,
+				B82D8FAA2AAFAD5C002D72EB /* Home */,
+				B82D8FA72AAFAC62002D72EB /* TabBar */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -176,13 +193,13 @@
 			path = ForgotPassword;
 			sourceTree = "<group>";
 		};
-		B829359F2A975E3E00CF4C74 /* Component */ = {
+		B829359F2A975E3E00CF4C74 /* UIComponent */ = {
 			isa = PBXGroup;
 			children = (
 				B8204C212A960C410066445D /* PasswordTextField.swift */,
 				B829359D2A9754DC00CF4C74 /* LoginSegmentControl.swift */,
 			);
-			path = Component;
+			path = UIComponent;
 			sourceTree = "<group>";
 		};
 		B82935A02A975E5000CF4C74 /* Controller */ = {
@@ -228,13 +245,62 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B82D8FA72AAFAC62002D72EB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B82D8FA82AAFAC78002D72EB /* TabBarController.swift */,
+				B87C09F22AB06219009B3EA9 /* TabBarItem.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B82D8FAA2AAFAD5C002D72EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B817F8202AAA098F009C24A0 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B82D8FAB2AAFAD9A002D72EB /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B82D8FB72AAFAF23002D72EB /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		B82D8FAC2AAFADD4002D72EB /* MyGarage */ = {
+			isa = PBXGroup;
+			children = (
+				B82D8FB92AAFAF3B002D72EB /* MyGarageViewController.swift */,
+			);
+			path = MyGarage;
+			sourceTree = "<group>";
+		};
+		B82D8FAD2AAFAE78002D72EB /* ShoppingBag */ = {
+			isa = PBXGroup;
+			children = (
+				B82D8FBB2AAFAF4A002D72EB /* ShoppingBagViewController.swift */,
+			);
+			path = ShoppingBag;
+			sourceTree = "<group>";
+		};
+		B82D8FAE2AAFAE8D002D72EB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B82D8FBD2AAFAF64002D72EB /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		B85201C42A844FBF009DE2E2 /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				B82935AC2A988C1100CF4C74 /* Model */,
 				B82935AB2A988C0B00CF4C74 /* ViewModel */,
 				B82935A02A975E5000CF4C74 /* Controller */,
-				B829359F2A975E3E00CF4C74 /* Component */,
+				B829359F2A975E3E00CF4C74 /* UIComponent */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -571,6 +637,9 @@
 				B8204C222A960C410066445D /* PasswordTextField.swift in Sources */,
 				B88A90372A7FE2DE003F10F3 /* UIFont+Ext.swift in Sources */,
 				B817F81C2AAA0352009C24A0 /* PasswordResetResponse.swift in Sources */,
+				B82D8FBE2AAFAF64002D72EB /* ProfileViewController.swift in Sources */,
+				B82D8FB82AAFAF23002D72EB /* MessageViewController.swift in Sources */,
+				B87C09F32AB06219009B3EA9 /* TabBarItem.swift in Sources */,
 				B817F8142AA9C6AB009C24A0 /* SocialPlatform.swift in Sources */,
 				B8E5C7122A7F04CA00B6915F /* AppDelegate.swift in Sources */,
 				B817F8162AA9E3C7009C24A0 /* LogicViewModel.swift in Sources */,
@@ -581,6 +650,7 @@
 				B85DB57F2A94A72F00D6260A /* UIColor+Ext.swift in Sources */,
 				B817F8182AA9F1E7009C24A0 /* SendVerifyResponseModel.swift in Sources */,
 				B817F81A2AAA02A7009C24A0 /* LoginResponseModel.swift in Sources */,
+				B82D8FBC2AAFAF4A002D72EB /* ShoppingBagViewController.swift in Sources */,
 				B817F8212AAA098F009C24A0 /* HomeViewController.swift in Sources */,
 				B82935A72A97FD2900CF4C74 /* HttpMethod.swift in Sources */,
 				B817F8122AA9C495009C24A0 /* Router.swift in Sources */,
@@ -588,11 +658,13 @@
 				B88A90062A7FCBAB003F10F3 /* SplashViewController.swift in Sources */,
 				B829359E2A9754DC00CF4C74 /* LoginSegmentControl.swift in Sources */,
 				B87FA7DD2AA39CAE0089FA55 /* VerifyViewController.swift in Sources */,
+				B82D8FA92AAFAC79002D72EB /* TabBarController.swift in Sources */,
 				B85319302AAB09FF003C8290 /* PasswordResetViewController.swift in Sources */,
 				B817F8252AAA24C5009C24A0 /* ForgotPasswordViewController.swift in Sources */,
 				B8A7612B2A810D8600766236 /* NSObject+Ext.swift in Sources */,
 				B8424D892A9969FE00EECB2F /* RegisterResponse.swift in Sources */,
 				B817F81E2AAA03FA009C24A0 /* SocialResponseModel.swift in Sources */,
+				B82D8FBA2AAFAF3B002D72EB /* MyGarageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
