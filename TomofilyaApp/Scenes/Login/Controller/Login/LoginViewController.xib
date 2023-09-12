@@ -105,8 +105,21 @@
                                 </textField>
                             </subviews>
                         </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8bd-oJ-eyd">
+                            <rect key="frame" x="43" y="261" width="328" height="40"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="Pbh-pe-o2H"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                            <color key="tintColor" systemColor="systemBackgroundColor"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Giriş Yap">
+                                <color key="titleColor" red="0.058823529409999999" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMW-Ny-kan">
-                            <rect key="frame" x="140" y="237" width="134.5" height="17"/>
+                            <rect key="frame" x="134" y="228" width="146.5" height="17"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="17" id="Tex-LK-RKP"/>
                             </constraints>
@@ -148,23 +161,10 @@
                             </constraints>
                         </stackView>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VpR-sf-Qlw" userLabel="UIButtonStackView">
-                            <rect key="frame" x="43" y="318" width="328" height="90"/>
+                            <rect key="frame" x="43" y="318" width="328" height="40"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8bd-oJ-eyd">
-                                    <rect key="frame" x="0.0" y="0.0" width="328" height="40"/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="40" id="Pbh-pe-o2H"/>
-                                    </constraints>
-                                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
-                                    <color key="tintColor" systemColor="systemBackgroundColor"/>
-                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="Giriş Yap">
-                                        <color key="titleColor" red="0.058823529409999999" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </state>
-                                </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Tl-vJ-JFp">
-                                    <rect key="frame" x="0.0" y="50" width="328" height="40"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="328" height="40"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="40" id="ITq-Sr-B2k"/>
@@ -179,13 +179,13 @@
                             </subviews>
                         </stackView>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="0Do-Pp-zSw" userLabel="SeperatorStackView">
-                            <rect key="frame" x="0.0" y="457" width="414" height="17"/>
+                            <rect key="frame" x="0.0" y="407" width="414" height="17"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VPO-if-Z0g">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="17"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ya da" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8m-Ah-Sk3">
-                                            <rect key="frame" x="192.5" y="0.0" width="29.5" height="17"/>
+                                            <rect key="frame" x="190" y="0.0" width="34.5" height="17"/>
                                             <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
                                             <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
@@ -231,7 +231,7 @@
                             </constraints>
                         </stackView>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="GnG-8g-ox9" userLabel="SocialStackView">
-                            <rect key="frame" x="24" y="518" width="366" height="104"/>
+                            <rect key="frame" x="24" y="468" width="366" height="104"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaO-ie-HJy">
                                     <rect key="frame" x="0.0" y="0.0" width="366" height="44"/>
@@ -280,12 +280,15 @@
                         <constraint firstItem="Ssk-de-2zw" firstAttribute="top" secondItem="bQa-C5-2Fu" secondAttribute="top" constant="32" id="4DQ-do-r9l"/>
                         <constraint firstItem="VpR-sf-Qlw" firstAttribute="leading" secondItem="bQa-C5-2Fu" secondAttribute="leading" constant="43" id="Dd4-Gx-GdP"/>
                         <constraint firstItem="owk-gf-O7u" firstAttribute="leading" secondItem="bQa-C5-2Fu" secondAttribute="leading" constant="16" id="Dtp-7g-WIW"/>
+                        <constraint firstItem="8bd-oJ-eyd" firstAttribute="top" secondItem="EMW-Ny-kan" secondAttribute="bottom" constant="16" id="F5T-oX-7Km"/>
                         <constraint firstItem="VpR-sf-Qlw" firstAttribute="top" secondItem="owk-gf-O7u" secondAttribute="bottom" constant="20" id="F8c-Cy-4Zj"/>
-                        <constraint firstItem="owk-gf-O7u" firstAttribute="top" secondItem="EMW-Ny-kan" secondAttribute="bottom" constant="16" id="Gpc-24-rXZ"/>
                         <constraint firstItem="owk-gf-O7u" firstAttribute="top" secondItem="RwQ-Fq-5ZX" secondAttribute="bottom" constant="16" id="Hdb-pp-eCW"/>
                         <constraint firstAttribute="trailing" secondItem="0Do-Pp-zSw" secondAttribute="trailing" id="IxD-tb-VTs"/>
+                        <constraint firstItem="8bd-oJ-eyd" firstAttribute="leading" secondItem="bQa-C5-2Fu" secondAttribute="leading" constant="43" id="J7j-SL-BlK"/>
                         <constraint firstItem="Ssk-de-2zw" firstAttribute="leading" secondItem="bQa-C5-2Fu" secondAttribute="leading" constant="24" id="LAG-es-RsB"/>
+                        <constraint firstItem="8bd-oJ-eyd" firstAttribute="centerX" secondItem="bQa-C5-2Fu" secondAttribute="centerX" id="Mw6-JR-5IR"/>
                         <constraint firstItem="GnG-8g-ox9" firstAttribute="leading" secondItem="bQa-C5-2Fu" secondAttribute="leading" constant="24" id="OGc-a6-PbJ"/>
+                        <constraint firstAttribute="trailing" secondItem="8bd-oJ-eyd" secondAttribute="trailing" constant="43" id="UjX-I8-fyX"/>
                         <constraint firstItem="EMW-Ny-kan" firstAttribute="centerX" secondItem="bQa-C5-2Fu" secondAttribute="centerX" id="Uxu-2M-pqQ"/>
                         <constraint firstItem="GnG-8g-ox9" firstAttribute="top" secondItem="0Do-Pp-zSw" secondAttribute="bottom" constant="44" id="V18-is-aWg"/>
                         <constraint firstAttribute="trailing" secondItem="VpR-sf-Qlw" secondAttribute="trailing" constant="43" id="bke-b8-Lto"/>
@@ -293,6 +296,7 @@
                         <constraint firstItem="0Do-Pp-zSw" firstAttribute="top" secondItem="VpR-sf-Qlw" secondAttribute="bottom" constant="49" id="lLL-ze-4y4"/>
                         <constraint firstAttribute="trailing" secondItem="owk-gf-O7u" secondAttribute="trailing" constant="18" id="mby-IG-Gav"/>
                         <constraint firstAttribute="trailing" secondItem="Ssk-de-2zw" secondAttribute="trailing" constant="24" id="qJ6-RR-orO"/>
+                        <constraint firstItem="EMW-Ny-kan" firstAttribute="top" secondItem="Ssk-de-2zw" secondAttribute="bottom" constant="32" id="t4P-4h-QZy"/>
                         <constraint firstAttribute="trailing" secondItem="GnG-8g-ox9" secondAttribute="trailing" constant="24" id="uPg-wj-ioF"/>
                     </constraints>
                 </view>
@@ -314,7 +318,7 @@
     </objects>
     <designables>
         <designable name="Za2-4i-Bmr">
-            <size key="intrinsicContentSize" width="62" height="34"/>
+            <size key="intrinsicContentSize" width="66.5" height="34"/>
         </designable>
     </designables>
     <resources>

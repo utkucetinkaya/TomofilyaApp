@@ -9,7 +9,7 @@ import UIKit
 
 @IBDesignable class PassWordTextField: UITextField {
     
-    @IBInspectable var hideEye: String = "eyeoff"
+    @IBInspectable var hideEye: String = "hideEye"
     @IBInspectable var showEye: String = "eyeoff"
     
     static let eyeContainerBounds = CGSize(width: 50, height: 50)
